@@ -35,6 +35,10 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  created() {
+    // 환경 변수 출력
+    console.log(process.env)
   }
 }
 </script>
